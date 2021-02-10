@@ -1,5 +1,6 @@
 const routes = require('express').Router();
+const {Marcas} = require('./app/models')
 
-//definir rotas 
+Marcas.create({name: 'Ford'})
 
 module.exports = routes;
