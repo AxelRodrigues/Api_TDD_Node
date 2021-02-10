@@ -7,3 +7,6 @@ npx sequelize-cli migration:create --name=create-marcas
 
 ## CRIAÇÃO DAS TABELAS APARTIR DAS MIGRATIONS
 npx sequelize-cli db:migrate
+
+## CRIAÇÃO DO JEST.CONFIG
+npx jest --init
